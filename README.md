@@ -1,6 +1,6 @@
 # Brant-X
 <p align="center">
-  <img src="./img/logo.png" alt="framework" style="zoom:8%;" />
+  <img src="./img/logo.png" alt="framework" style="zoom:4%;" />
 </p>
 
 Brant-X is the first physiological signal alignment framework that can model various physiological data like EOG, ECG and EMG. Brant-X performs knowledge transfer from EEG to other physiological signals, allowing the data and model resources in the EEG field to empower the research on other physiological signals. 
