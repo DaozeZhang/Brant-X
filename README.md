@@ -1,5 +1,5 @@
 # Brant-X
-<img src="./img/logo.png" alt="framework" style="zoom:5%;" />
+<img src="./img/logo.png" alt="framework" style="zoom:30%;" />
 
 Brant-X is the first physiological signal alignment framework that can model various physiological data like EOG, ECG and EMG. Brant-X performs knowledge transfer from EEG to other physiological signals, allowing the data and model resources in the EEG field to empower the research on other physiological signals. 
 
@@ -39,7 +39,7 @@ for researchers to reference based on their needs.
 
 ### The series of works from Brant
 
-- To establish a foundation model, we first aim to pretrain a foundation model with 500M parameters using a large amount of intracranial brain signals (*Brant*, [Zhang et al., NeurIPS'23](http://yangy.org/works/brainnet/NeurIPS23_Brant.pdf)). 
+- To establish a foundation model, we first aim to pretrain a foundation model with 500M parameters using a large amount of intracranial brain signals (*Brant*, [Zhang et al., NeurIPS'23](https://proceedings.neurips.cc/paper_files/paper/2023/hash/535915d26859036410b0533804cee788-Abstract-Conference.html)). 
 - Next, we integrate EEG into the pretraining corpus, constructing a foundation model with 1B parameters, which subsequently broadens its applicability to a wider variety of downstream tasks, such as sleep staging and emotion recognition (*Brant-2*, [Yuan et al., arXiv](https://arxiv.org/abs/2402.10251)). 
 - Leveraging the powerful generalization capabilities of Brant-2, we propose a unified alignment framework (*Brant-X*, Zhang et al., KDD'24) for direct adaptation of Brant-2 to downstream tasks that involve rare physiological signals like EOG, ECG, and EMG.
 - In prospect, we wish to push the boundaries of what's possible in "AI + neuroscience/medicine", propelled by our belief in the potential of these models to contribute to the advancement of human health and well-being.
